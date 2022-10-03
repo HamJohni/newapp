@@ -1,0 +1,46 @@
+.mission {
+  padding-top: 43px;
+  position: relative;
+}
+.mission__man {
+  width: 583px;
+  height: 746px;
+}
+.mission__img {
+  width: 100%;
+  height: 100%;
+}
+.mission__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.mission__title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #2F5691;
+}
+.mission__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #172141;
+}
+.mission__text2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  color: #172141;
+}
+.mission__card {
+  background-color: #EBEFF4;
+}
+.mission__box {
+  margin: 17px;
+}

@@ -1,0 +1,53 @@
+.services__header{
+  background-color: #3273C0;
+  padding-top: 27px;
+  position: relative;
+
+
+  &__first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__data{
+    display: flex;
+  }
+
+  &__svg1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 16px;
+    margin-right: 18px;
+  }
+
+  &__text{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  &__tel{
+    display: flex;
+    column-gap: 11px;
+  }
+
+  &__info2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;;
+    flex-direction:column ;
+
+    &__span{
+      font-family: 'Roboto',sans-serif;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+
+}

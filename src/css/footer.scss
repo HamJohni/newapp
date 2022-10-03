@@ -1,0 +1,125 @@
+.footer {
+  padding-bottom:75px;
+  background-color: #172141;
+
+  &__boxes{
+    display: flex;
+  }
+
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+
+  &__title{
+    margin-bottom: 5px;
+  }
+
+  &__ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__li{
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    line-height: 203.69%;
+    color: #A1AAB6;
+  }
+}
+.card2{
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
+  margin-right: 85px;
+
+  &__title{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #EBEFF4;
+  }
+
+  &__ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__li{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+}
+
+.card3{
+  display: flex;
+  flex-direction: column;
+
+  &__first{
+    display: flex;
+    column-gap: 22px;
+  }
+
+  &__text{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  &__phone{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+  }
+  &__email{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+  }
+  &__clock{
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+  }
+
+  &__second{
+    display: flex;
+    column-gap: 25px;
+    justify-content: end;
+    margin: 11px 0 6px;
+  }
+
+  &__county{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &__text2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  &__address1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+  }
+  &__address-svg{
+    position: absolute;
+    top: 34%;
+    left: -27px
+  }
+
+
+}

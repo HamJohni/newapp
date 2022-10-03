@@ -1,0 +1,142 @@
+.support{
+
+  &__boxes {
+    display: flex;
+  }
+
+}
+
+.box{
+  width: 50%;
+  padding:52px 111px 140px 300px ;
+  background: url("../images/support/Rectangle 145 (1).png") center/cover no-repeat;
+
+  &__call{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 30px;
+    line-height: 41px;
+    color: #FFFFFF;
+  }
+
+  &__icons{
+    margin: 13px 0;
+  }
+
+  &__number{
+    font-family: 'Roboto',sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+}
+
+
+.box2{
+  background-color: #2F5691;
+  padding: 52px 0 53px 52px;
+  width: 50%;
+
+  &__rephone{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 30px;
+    line-height: 32px;
+    color: #FFFFFF;
+  }
+
+  &__inputs{
+    display: flex;
+    column-gap: 23px;
+    margin: 53px 0 27px;
+  }
+
+  &__input-name{
+    padding: 9px 5px 9px 58px ;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 31px;
+    color: #6F737D;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 2px solid #E0B473;
+    outline: none;
+  }
+  &__label{
+    position: relative;
+  }
+
+  &__grey{
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    background-color: #EBEFF4;
+    bottom: 8px;
+    left: 9px;
+    z-index: 4;
+  }
+
+  &__svg{
+    position: absolute;
+    bottom: 17px;
+    left: 19px;
+    z-index: 5;
+  }
+
+  &__comments{
+    width: 500px;
+    height: 56px;
+    background-color: #fff;
+    padding: 14px 5px 11px 58px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 31px;
+    color: #6F737D;
+    border: 2px solid #E0B473;
+    outline: none;
+    border-radius: 4px;
+  }
+
+  &__btn{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    column-gap: 37px;
+  }
+
+  &__for-checkbox{
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+  }
+
+  &__checkbox{
+    height: 24px;
+    width: 24px;
+    border: 10px solid red;
+    border-radius: 4px;
+  }
+
+  &__checkbox-text{
+    font-family: 'Roboto',sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #F2C94C;
+  }
+
+
+
+
+}
+
+.two__grey{
+  bottom: -8px  ;
+  left: 9px;
+}
+.two__svg{
+  bottom: 0;
+  left: 17px;
+}
+

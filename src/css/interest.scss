@@ -1,0 +1,63 @@
+.interest{
+  padding: 111px 0 42px;
+
+  &__title{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #2F5691;
+    margin-bottom: 50px;
+  }
+
+  &__box{
+    display: flex;
+    column-gap: 31px;
+  }
+
+
+  &__text{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #2F5691;
+    margin-top: 91px;
+  }
+}
+
+.box1{
+  padding: 225px 31px 64px 35px;
+  background: #172141;
+  border-radius: 16px;
+  width: 369px;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
+
+  &::before{
+    content: url("../images/interest/Mask Group (5).png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &__title{
+    font-family: 'Merriweather',sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  &__ul{
+    margin: 15px 0 21px;
+  }
+  &__li{
+    list-style-type: circle;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #EBEFF4;
+  }
+}
